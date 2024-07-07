@@ -1,0 +1,291 @@
+* {
+    font-family: "Montserrat";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.login {
+    width: 137px;
+    height: 52px;
+}
+
+.link-login {
+    padding: 15px 0 0 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #96BB7C;
+}
+.button1 {
+    color: #96BB7C; 
+    width: 137px;
+    height: 52px;
+    border-radius: 4px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.button2 {
+    color: #FFF;
+    background-color: #96BB7C;
+    border-radius: 4px;
+    width: 137px;
+    height: 52px;
+    border: 0;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px;
+}
+.button3 {
+    background-color: #96BB7C;
+    width: 193px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.button4 {
+    background-color: transparent;
+    width: 162px;
+    height: 52px;
+    border: 2px solid #96BB7C;
+    border-radius: 4px;
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.banner1 {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    height: 777px;
+    width: 1440px;
+    background-color: #DDF4FF;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: flex-end;
+    height: 682px;
+    width: 1440px;
+}
+
+.dental-surgeons {
+    height: 386px;
+    width: 573px;
+    margin: 150px 100px;
+}
+
+#header-tag1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #96BB7C;
+}
+
+#headline1{
+    font-size: 58px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+#sub-headline1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    padding: 0 130px 0 0;
+}
+
+
+.col2 {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    height: 682px;
+    width: 704px;
+}
+
+.technology-1{
+    width: 532.15px; 
+    height: 622.04px;
+    margin: 0;
+    padding: 0;
+}
+
+.donut{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    transform: translate(140%, 0);
+    border-radius: 50%;
+    border: 80px solid #B8F0D7;
+}
+
+.singles {
+    width: 162.35px;
+    height: 81.88px;
+    transform: translate(-550px, -300px);
+}
+
+.global {
+    width: 196.24px;
+    height: 183.53px;
+    transform: translate(-250px, -150px);
+}
+
+.scores {
+    width: 218.82px;
+    height: 149.65px;
+    transform: translate(-850px, 0);
+}
+
+.stats {
+    height: 264px;
+    width: 1440px;
+    background-color: #FFF;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.metrics {
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    color: #96BB7C;
+    margin: 40px 0 5px;
+}
+
+.metrics-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #252B42;
+    margin: 0;
+}
+
+.banner3 {
+    height: 718px;
+    width: 1440px;
+    background-color: #FFF2F3;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 160px;
+}
+
+.quality {
+    font-size: 40px;
+    margin: 0 0 100px;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1045px;
+    height: 268px;
+}
+
+.col-md-4 {
+    width: 328px;
+    height: 268px;
+}
+
+.card {
+    width: 328px;
+    height: 268px;
+    background-color: #FFF;
+}
+
+.inner-card {
+    padding: 35px 40px;
+}
+
+.circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #FFF2F3;
+}
+
+#backpack {
+    transform: translate(60%, 60%);
+}
+.feature-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.red-line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+}
+.paragragh-feature {
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+footer {
+    width: 1440px;
+    height: 74px;
+    background-color: #FAFAFA;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col-md-7 {
+    padding: 0 0 0 150px;
+}
+
+.col-md-6 {
+    padding: 0 300px 0 0;
+}
+
+h6 {
+    color: #737373;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
